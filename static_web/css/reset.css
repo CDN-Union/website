@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strike, strong, sub, sup, tt, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figure, figcaption, footer, header, hgroup, menu, nav, output, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	outline: none;
+	-webkit-font-smoothing: antialiased;/*字体抗锯齿*/
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html,body{
+	-webkit-overflow-scrolling:touch;
+}
+body { line-height: 1.14; font-family: Helvetica,SimHei; }
+ 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul, li { list-style: none;}
+ 
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: '';  }
+b,strong { font-weight: bold; }
+i,em {font-style: normal;}
+ 
+table { border-spacing: 0; border-collapse: collapse; }
+img { border: 0; border: none; max-width: 100%; }
+a {text-decoration: none; }
+input,textarea{
+	outline: none; 
+	resize: none; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	line-height: inherit;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+input::-webkit-input-placeholder{color:#999;}
+input:focus::-webkit-input-placeholder{color:#999;}
+select{
+	outline: none; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	line-height: inherit;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+button{
+	background: none;
+	border: none;
+	outline:none;
+}
+input:active,input:hover,input:focus,textarea:active,textarea:hover,textarea:focus,select:active,select:hover,select:focus,button:active,button:hover,button:focus{
+	outline: none;
+}
+a,button,input,textarea{-webkit-tap-highlight-color: rgba(0,0,0,0)}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clearfix:after {content: ""; display: block;  clear: both; }
+ 
+/* IE 6/7 */
+.clearfix { zoom: 1; }
